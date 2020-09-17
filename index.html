@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1"/>
+        <meta name="description" content="A one player game, you start as one part but you can get split into two if you hit an obstacle."/>
+        <link href="style.css" type="text/css" rel="stylesheet"/>
+        <script src="lib/p5.min.js"></script>
+        <title>A Very Unique Game.</title>
+    </head>
+    <body>
+        <header>
+            <h1>A Very Unique Game.</h1>
+            <div class="banner"></div>
+        </header>
+        <div class="main">
+            <div class="description">
+                <h2>&curren; DESCRIPTION &curren;</h2>
+                <span id="splitter">--------------------</span>
+                <p>A one player game, you start as one part but you can get split into two if you hit an obstacle.</p>
+                <p>Splitting increases difficulty and makes it harder for you to gain a higher score.</p>
+                <p>Obstacle speed will decrease when you go right vice-versa.</p>
+            </div>
+            <div class="how_to_play">
+                <h2>&curren; HOW TO PLAY &curren;</h2>
+                <span id="splitter">--------------------</span>
+                <p>Play a few rounds and get the hang of it. Eventually, you'll become a pro!</p>
+                <br/>
+                <h3>CONTROLS</h3>
+                <ul>
+                    <li>LEFT ARROW - move left.</li>
+                    <li>RIGHT ARROW - move right.</li>
+                    <li>SPACE - jump.</li>
+                </ul>
+            </div>
+            <div class="future_plans">
+                <h2>&curren; FUTURE PLANS &curren;</h2>
+                <span id="splitter">--------------------</span>
+                <p>Fix a few bugs here and there - make things more smoother and playable.</p>
+                <p>You can input your name which then will be used to save your high-score.</p>
+                <p>There will be a global leaderboard.</p>
+            </div>
+        </div>
+        <div class="game">
+            <h1>PLAY THE GAME.</h1>
+        </div>
+        <footer>
+            <p>FEEDBACK &raquo; eray_chumak@protonmail.com</p>
+        </footer>
+        <script src="src/main.js"></script>
+        <script src="src/screens/screen_mgr.js"></script>
+        <script src="src/screens/leaderboard.js"></script>
+        <script src="src/screens/options.js"></script>
+        <script src="src/screens/start.js"></script>
+    </body>
+</html>
